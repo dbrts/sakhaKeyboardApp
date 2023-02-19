@@ -13,6 +13,7 @@
 		AC588BA929A298740019EBC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC588BA829A298740019EBC3 /* Preview Assets.xcassets */; };
 		AC588BB629A29C600019EBC3 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC588BB529A29C600019EBC3 /* KeyboardViewController.swift */; };
 		AC588BBA29A29C600019EBC3 /* sakhaKeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AC588BB329A29C600019EBC3 /* sakhaKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AC588BC129A29DE90019EBC3 /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = AC588BC029A29DE90019EBC3 /* KeyboardKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC588BC129A29DE90019EBC3 /* KeyboardKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +151,9 @@
 			dependencies = (
 			);
 			name = sakhaKeyboard;
+			packageProductDependencies = (
+				AC588BC029A29DE90019EBC3 /* KeyboardKit */,
+			);
 			productName = sakhaKeyboard;
 			productReference = AC588BB329A29C600019EBC3 /* sakhaKeyboard.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -180,6 +185,9 @@
 				Base,
 			);
 			mainGroup = AC588B9529A298720019EBC3;
+			packageReferences = (
+				AC588BBF29A29DE90019EBC3 /* XCRemoteSwiftPackageReference "KeyboardKit" */,
+			);
 			productRefGroup = AC588B9F29A298720019EBC3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -499,6 +507,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC588BBF29A29DE90019EBC3 /* XCRemoteSwiftPackageReference "KeyboardKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KeyboardKit/KeyboardKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC588BC029A29DE90019EBC3 /* KeyboardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC588BBF29A29DE90019EBC3 /* XCRemoteSwiftPackageReference "KeyboardKit" */;
+			productName = KeyboardKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AC588B9629A298720019EBC3 /* Project object */;
 }
