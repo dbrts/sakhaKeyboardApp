@@ -14,6 +14,7 @@
 		AC588BB629A29C600019EBC3 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC588BB529A29C600019EBC3 /* KeyboardViewController.swift */; };
 		AC588BBA29A29C600019EBC3 /* sakhaKeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AC588BB329A29C600019EBC3 /* sakhaKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AC588BC129A29DE90019EBC3 /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = AC588BC029A29DE90019EBC3 /* KeyboardKit */; };
+		AC588BC329A2A1540019EBC3 /* MyKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC588BC229A2A1540019EBC3 /* MyKeyboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AC588BB329A29C600019EBC3 /* sakhaKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = sakhaKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC588BB529A29C600019EBC3 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		AC588BB729A29C600019EBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC588BC229A2A1540019EBC3 /* MyKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKeyboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				AC588BB529A29C600019EBC3 /* KeyboardViewController.swift */,
+				AC588BC229A2A1540019EBC3 /* MyKeyboardView.swift */,
 				AC588BB729A29C600019EBC3 /* Info.plist */,
 			);
 			path = sakhaKeyboard;
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC588BB629A29C600019EBC3 /* KeyboardViewController.swift in Sources */,
+				AC588BC329A2A1540019EBC3 /* MyKeyboardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
