@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>sakhaKeyboard.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>sakhaKeyboardApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
